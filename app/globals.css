@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Clean, minimal global styles */
+body {
+  background-color: #fafafa;
+  color: #171717;
+}
+
+/* Smooth link transitions */
+a {
+  transition: opacity 0.15s ease;
+}
+
+a:hover {
+  opacity: 0.7;
+}
