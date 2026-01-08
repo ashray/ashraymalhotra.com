@@ -4,7 +4,7 @@
 // ============================================
 
 // Substack RSS feed URL
-const SUBSTACK_RSS_URL = "https://howtheworldworks.substack.com/feed";
+const SUBSTACK_RSS_URL = "https://writing.ashraymalhotra.com/feed";
 
 // Fetch and parse posts from Substack RSS feed
 async function getPosts() {
@@ -90,7 +90,7 @@ export default async function Home() {
         {/* Subscribe form - Substack embed */}
         <div className="mt-10">
           <iframe
-            src="https://howtheworldworks.substack.com/embed"
+            src="https://writing.ashraymalhotra.com/embed"
             width="100%"
             height="150"
             style={{ border: "none", background: "transparent" }}
@@ -127,7 +127,7 @@ export default async function Home() {
 
           {/* Link to full archive */}
           <a
-            href="https://howtheworldworks.substack.com"
+            href="https://writing.ashraymalhotra.com"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 inline-block text-sm text-neutral-500 hover:text-neutral-700"
